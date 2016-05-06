@@ -1,0 +1,302 @@
+p { font-family: 'Open Sans', sans-serif; }
+hr { border: 1px solid #dcdcdc; }
+
+.navbar-default {
+    background-color: #474747;
+    margin-bottom: 0;
+    border: none;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px 15px;
+    background-color: #d559a8;
+}
+
+.navbar-brand,
+.navbar-nav li a{
+    height: 80px;
+    line-height: 80px;
+    padding: 0 25px;
+    margin-left: 1px;
+    background-color: #474747;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+    border-right: 1px solid #393939;
+    box-shadow: 1px 0 0 0 rgba(255,255,255,0.1);
+}
+
+.navbar-brand{ padding-right: 0; }
+
+.navbar-default .navbar-nav>li>a { color: #fff }
+.navbar-default .navbar-nav>li>a:hover { 
+    color: #fff;  
+    background-color: #535252 ;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #535252;
+}
+
+.navbar-default .navbar-toggle{
+    margin-top: 25px;
+    border-color: #646464;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #3d3d3d;
+}
+
+
+/*SOCIAL NETWORK ICONS*/
+
+.github a {
+    width: 80px;
+    background-color: #3d3d3d !important;
+    color: #fff !important;
+    font-size: 1.8em;
+    text-align: center;
+    box-shadow: none;
+    border-right: none;
+}
+
+.gitlab a {
+    width: 80px;
+    background-color: #3d3d3d !important;
+    color: #ff9900 !important;
+    font-size: 1.8em;
+    text-align: center;
+    box-shadow: none;
+    border-right: none;
+}
+
+.github a:hover,
+.gitlab a:hover {
+    opacity: .8;
+    
+}
+
+/*HEADER*/
+
+header {
+    height: 650px;
+    text-align: center;
+    background-color: #6d6d6d;
+    background-image: url("img/head-bg.jpg");
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.me{
+    border: 10px solid #fff;
+    box-shadow: 0 14px 37px -6px rgba(0,0,0,1);
+}
+
+header h2 {
+    margin-top: 50px;
+    font-size: 3.5em;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+header p {
+    margin: 0 20px;
+    font-size: 1.2em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*MAIN CONTENT*/
+
+.main-content {
+    padding: 60px 30px;
+}
+.main-content h3 {
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #d559a8;
+    border: 3px solid #d559a8;
+}
+
+.main-content h4 {
+    margin-top: 0;
+    color: #3f3f3f;
+    font-size: 1.7em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-content h4 small {
+    color: #a0a0a0;
+    font-size: 0.7em;
+    border-left: 1px solid #a0a0a0;
+    border-color: #a0a0a0;
+    padding-left: 5px;
+    margin-left: 5px; 
+}
+
+.main-content .about-me p {
+    color: #a0a0a0;
+    font-size: 1.2em;
+}
+
+/*BLOG CONTENT*/
+
+.main-content .post {
+    text-align: center;
+}
+
+.main-content .post-header {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #6a6a6a;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-content .post-text {
+    margin-top: 20px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.main-content .contact-form p {
+    color: #a0a0a0;
+    font-size: 1.2em;
+}
+
+/*CONTACT INFO CONTENT*/
+.contact-form .row {
+    padding-top: 20px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    color: #b9b9b9;
+    border: 3px solid #b9b9b9;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+
+input:focus {
+    border: 3px solid #d559a8;
+    box-shadow: 0 0 5px 1px #d559a8;
+}
+
+.message-box {
+    height: 220px;
+    padding-bottom: 170px;
+}
+
+.send-button {
+    width: 180px;
+    color: #fff;
+}
+
+.send-button:hover {
+    color: #d559a8;
+    border-color: #d559a8;
+}
+
+.my-info p {
+    padding-left: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #c3c3c3 !important;
+}
+
+.my-info i {
+    position: absolute;
+    left: 0;
+    padding-top: 2px;
+    color: #b9b9b9;
+    font-size: 1.4em;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+    color: white;
+    background-color: #262626
+}
+
+.pull-left {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pull-left a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.pull-right {
+    color: #acacac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav>li>a {
+        width: 100%;
+        border-bottom: 1px solid #3d3d3d;
+        text-align: center;
+    }
+    .my-info i {
+        padding-left: 15px;
+    }
+    .my-info p {
+        padding-left: 30px;
+    }
+    header h2 {
+        margin-top: 50px;
+        font-size: 2.5em;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+    }
+    header p {
+        margin: 0 20px;
+        font-size: 1.2em;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
